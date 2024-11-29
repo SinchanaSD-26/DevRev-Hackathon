@@ -1,1 +1,16 @@
+// This is the configuration file for TypeScript compilation.
 
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"]
+}
+
+
+// Expected Outcome:
+// When you run npx tsc, TypeScript will compile .ts files from src/ into .js files in the dist/ folder.
