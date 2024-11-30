@@ -4,7 +4,7 @@ SNAP IN :-
   
 import { WebClient } from '@slack/web-api';
 import nodemailer from 'nodemailer';
-const slackToken = 'YOUR_SLACK_API_TOKEN';
+const slackToken = 'xoxb-123456789012-123456789012-ABCDEFGHIJKLMNO';
 const slackChannel = 'support-team';
 export const sendSlackAlert = async (message: string) => {
     const client = new WebClient(slackToken);
