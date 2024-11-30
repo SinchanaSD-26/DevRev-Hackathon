@@ -1,0 +1,21 @@
+## Commands and APIs Used
+## Commands to Run:
+------>>>> Mention the commands to install dependencies, build, and run the project:
+npm install
+npm run build
+npm start
+
+## APIs Used:
+
+----- >>> Sentiment Analysis:
+Library: Sentiment (that it calculates sentiment scores for text)
+
+------>>>> Slack API:
+Function: client.chat.postMessage.
+Purpose: Sends alerts to a Slack channel.
+
+------>>>> Nodemailer:
+Purpose: Sends email alerts to the support team.
+
+------>>>> DevRev APIs:
+ DevRev APIs are used for like( e.g., fetching conversations or triggering workflows)
