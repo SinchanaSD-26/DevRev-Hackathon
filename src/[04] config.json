@@ -1,4 +1,4 @@
-# This file holds the threshold for customer frustration detection.
+#This file holds the threshold for customer frustration detection.
 
 # Example config.json content:
 
@@ -12,4 +12,4 @@ SNAP IN :-
 
 
 #Expected Output:
-This configuration is used in index.ts to compare against the sentiment score.If the sentiment score is less than -3, it triggers the alerts.
+# This configuration is used in index.ts to compare against the sentiment score.If the sentiment score is less than -3, it triggers the alerts.
